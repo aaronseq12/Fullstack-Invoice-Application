@@ -1,0 +1,50 @@
+.termsContainer {
+    background-image: url('https://storage.123fakturera.se/public/wallpapers/sverige43.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.languageSelector {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.languageSelector img {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+
+.mainContent {
+    flex-grow: 1;
+    overflow-y: auto;
+    background-color: white;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+}

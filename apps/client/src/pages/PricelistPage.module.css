@@ -1,0 +1,48 @@
+.pricelistContainer {
+    padding: 1rem;
+}
+
+.header {
+    background-color: var(--primary-blue);
+    color: var(--text-light);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controls {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    margin-bottom: 1rem;
+}
+
+.tableContainer {
+    width: 100%;
+    overflow-x: auto;
+    /* Allows horizontal scrolling on small screens */
+}
+
+.pricelistTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pricelistTable th,
+.pricelistTable td {
+    border: 1px solid var(--border-color);
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.pricelistTable th {
+    background-color: var(--light-blue);
+}
+
+.pricelistTable input {
+    width: 90%;
+    border: 1px solid var(--border-color);
+    padding: 0.25rem;
+}

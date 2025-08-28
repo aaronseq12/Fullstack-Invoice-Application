@@ -1,0 +1,20 @@
+{
+  "development": {
+    "url": "postgres://myuser:mypassword@localhost:5432/mydatabase",
+    "dialect": "postgres"
+  },
+  "test": {
+    "url": "postgres://myuser:mypassword@localhost:5432/mydatabase_test",
+    "dialect": "postgres"
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
