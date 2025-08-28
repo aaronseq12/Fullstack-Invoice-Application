@@ -1,4 +1,4 @@
-# 123fakturera SOW Project
+# LettFaktura company SOW Project
 
 This project is a full-stack application built to fulfill the requirements of the SOW provided by Emanuel. It includes a replica of the terms page and a functional, responsive pricelist.
 
